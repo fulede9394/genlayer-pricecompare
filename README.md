@@ -7,9 +7,15 @@ screenshot or a stale scrape.
 ## Deployed
 
 - Network: StudioNet (GenLayer Studio)
-- Contract: TBD
-- Deploy tx: TBD
-- Explorer: TBD
+- Contract: 0x8B8b94F3ee5C466E60D0dbc7779BEeDe2276e50e
+- Deploy tx: 0x20589e4bab0779b1bc9f96fcb3c35c272e1dea190feb3b54144aad3774c63d4e
+- Explorer: https://explorer-studio.genlayer.com/address/0x8B8b94F3ee5C466E60D0dbc7779BEeDe2276e50e
+
+Smoke tests on this deployment (all as expected):
+`A_CHEAPER` for £51.77 vs £53.74 — the £51.77 shown in page
+B's related-products section was correctly ignored;
+`B_CHEAPER` with the pages swapped; `CANNOT_COMPARE` against
+a page with no price.
 
 ## Why this exists
 
